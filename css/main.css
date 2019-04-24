@@ -1,0 +1,261 @@
+/***** BASE STYLES *****/
+#container {
+  width: 1400px;
+  margin: auto;
+  background: #b390a0;
+}
+
+body {
+  font-family: 'Gothic A1', sans-serif;
+  color: #2b2b2b;
+  margin: 0 auto;
+}
+
+#work {
+  height: 600px;
+}
+
+#about, #contact {
+  height: 550px;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1400px;
+  margin: 0;
+}
+
+.half-width {
+  width: 650px;
+  float: left;
+}
+
+.third-width {
+  width: 460px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  height: 940px;
+}
+
+header #photo-blk {
+  height: 938px;
+  width: 1400px;
+  background: url('../img/owl-mschoofs.jpg');
+  background-size: cover;
+}
+
+header h1 {
+  padding: 35px 35px;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 40px;
+  color: #b5949d;
+}
+
+nav {
+  float: right;
+  padding: 50px 25px;
+}
+
+ nav ul li {
+   display: inline-block;
+ }
+
+ nav ul li a {
+   font-family: 'Signika Negative', sans-serif;
+   font-weight: bold;
+   text-transform: capitalize;
+   text-decoration: none;
+   font-size: 25px;
+   color: #992321;
+   padding-left: 80px
+ }
+
+/*****GREETIGN*****/
+#greeting {
+   font-family: 'Signika Negative', sans-serif;
+   font-size: 35px;
+   line-height: 55px;
+   Text-align: right;
+   color: #992321;
+   width: 700px;
+   padding: 10px;
+   float: right;
+ }
+
+ header h2 span{
+   color: black;
+ }
+
+
+/***** WORK-PORTFOLIO *****/
+#work {
+  background: #b390a0;
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 30px 0;
+}
+
+#work img {
+  width: 250px;
+  height: 79px;
+  padding-bottom: 30px;
+  border: 0;
+}
+
+#work h2 {
+  color: #992321;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+#work h3 {
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  width: 215px;
+  margin: 0 auto;
+}
+#work p {
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0 50px;
+}
+
+/***** ABOUT *****/
+#about .full-width {
+  padding: 40px 0;
+}
+
+#about .full-width {
+  padding: 0 50px;
+}
+#about h2 {
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 36px;
+  padding-left: 50px;
+}
+
+img #about-img {
+  padding: 75px;
+  margin: 25px;
+  border: 25px solid #ffffff;
+}
+
+.half-width #about {
+  margin: 0;
+}
+#about p {
+  font-size: 20px;
+  color: #942128;
+  line-height: 27px;
+  font-weight: 500;
+  margin: 0;
+}
+
+
+/***** CONTACT *****/
+footer #contact {
+  height: 450px;
+}
+
+#contact {
+  background: #b390a0;
+  text-align: center;
+  padding: 110px 0;
+}
+
+
+#contact #envelope {
+  padding: 0 10px 0 10px;
+}
+
+#contact h2 {
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 36px;
+  line-height: 50px;
+  color: #992321;
+}
+
+#contact h3 {
+  color: #992321;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 28px;
+  line-height: 50px;
+}
+
+#contact h4 {
+  color: #992321;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+  width: 1400px;
+}
+
+#contact #socialmedia-header {
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 44px;
+  margin: 40px 0 0 0;
+  color: #992321;
+}
+
+#contact #email-header {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  margin: -30px 0 5px 0;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #992321;
+  font-weight:bold;
+  font-size: 28px;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  font-size: 32px;
+  padding-right: 48px;
+}
+
+/*****ADDTL-NAV*****/
+
+.portfolio half-width {
+  height: 110px;
+  width: 700px;
+  float: left;
+}
+
+.portfolio h1 h2 {
+  padding: 35px 35px;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 40px;
+  color: #b5949d;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 1px;
+}
